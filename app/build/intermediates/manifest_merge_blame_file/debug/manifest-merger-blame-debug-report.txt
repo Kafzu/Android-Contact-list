@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.college.ahuntsic.laboratoire3"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->[androidx.media:media:1.4.1] C:\Users\cisaa\.gradle\caches\transforms-3\4e23e015f1771556d70090871b001a01\transformed\media-1.4.1\AndroidManifest.xml:24:5-28:15
+12        <intent>
+12-->[androidx.media:media:1.4.1] C:\Users\cisaa\.gradle\caches\transforms-3\4e23e015f1771556d70090871b001a01\transformed\media-1.4.1\AndroidManifest.xml:25:9-27:18
+13            <action android:name="android.media.browse.MediaBrowserService" />
+13-->[androidx.media:media:1.4.1] C:\Users\cisaa\.gradle\caches\transforms-3\4e23e015f1771556d70090871b001a01\transformed\media-1.4.1\AndroidManifest.xml:26:13-79
+13-->[androidx.media:media:1.4.1] C:\Users\cisaa\.gradle\caches\transforms-3\4e23e015f1771556d70090871b001a01\transformed\media-1.4.1\AndroidManifest.xml:26:21-76
+14        </intent>
+15    </queries>
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] C:\Users\cisaa\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+18        android:name="org.college.ahuntsic.laboratoire3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] C:\Users\cisaa\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] C:\Users\cisaa\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="org.college.ahuntsic.laboratoire3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] C:\Users\cisaa\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] C:\Users\cisaa\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:5:5-26:19
+24        android:allowBackup="true"
+24-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:6:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] C:\Users\cisaa\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+26        android:dataExtractionRules="@xml/data_extraction_rules"
+26-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:7:9-65
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:fullBackupContent="@xml/backup_rules"
+29-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:8:9-54
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:9:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:10:9-41
+32        android:supportsRtl="true"
+32-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:11:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.Laboratoire3" >
+34-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:12:9-50
+35        <activity
+35-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:14:9-16:40
+36            android:name="org.college.ahuntsic.laboratoire3.SecondActivity"
+36-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:15:13-43
+37            android:exported="false" />
+37-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:16:13-37
+38        <activity
+38-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:17:9-25:20
+39            android:name="org.college.ahuntsic.laboratoire3.MainActivity"
+39-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:18:13-41
+40            android:exported="true" >
+40-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:19:13-36
+41            <intent-filter>
+41-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:20:13-24:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:21:17-69
+42-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:21:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:23:17-77
+44-->C:\Users\cisaa\OneDrive\Escritorio\Laboratoire3 (3)\Laboratoire3\app\src\main\AndroidManifest.xml:23:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cisaa\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cisaa\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+50            android:authorities="org.college.ahuntsic.laboratoire3.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cisaa\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cisaa\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cisaa\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cisaa\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cisaa\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\cisaa\.gradle\caches\transforms-3\7495f4090f64d34b46f8102bfc12da1e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\cisaa\.gradle\caches\transforms-3\7495f4090f64d34b46f8102bfc12da1e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\cisaa\.gradle\caches\transforms-3\7495f4090f64d34b46f8102bfc12da1e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>
